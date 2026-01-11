@@ -1842,8 +1842,12 @@
         const YOCO_PUBLIC_KEY = "pk_live_87123875V4lebnV243d4";
         
         // FIXED: Correct Supabase client initialization
-        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-        
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    auth: {
+        persistSession: true,
+        autoRefreshToken: true
+    }
+});
         // Initialize Yoco SDK
         let yoco = null;
         let yocoCardElement = null;
