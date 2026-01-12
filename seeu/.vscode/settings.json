@@ -10,5 +10,12 @@
     "Supabase",
     "XVCJ",
     "YOCO"
-  ]
+  ],
+  "chat.mcp.serverSampling": {
+    "seeu/.vscode/mcp.json: supabase": {
+      "allowedModels": [
+        "copilot/auto"
+      ]
+    }
+  }
 }
