@@ -2,7 +2,13 @@
   "powerquery.sdk.defaultQueryFile": "${workspaceFolder}\\${workspaceFolderBasename}.query.pq",
   "powerquery.sdk.defaultExtension": "${workspaceFolder}\\bin\\AnyCPU\\Debug\\${workspaceFolderBasename}.mez",
   "cSpell.words": [
+    "Amina",
+    "lebn",
+    "PGRST",
     "resx",
-    "seeu"
+    "seeu",
+    "Supabase",
+    "XVCJ",
+    "YOCO"
   ]
 }
